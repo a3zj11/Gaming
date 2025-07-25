@@ -1,0 +1,469 @@
+.DEALS {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.DEALS .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 2474px;
+  position: relative;
+}
+
+.DEALS .overlap {
+  position: absolute;
+  width: 1355px;
+  height: 330px;
+  top: 158px;
+  left: 42px;
+}
+
+.DEALS .rectangle {
+  position: absolute;
+  width: 1355px;
+  height: 301px;
+  top: 14px;
+  left: 0;
+  object-fit: cover;
+}
+
+.DEALS .text-wrapper {
+  position: absolute;
+  top: 164px;
+  left: 32px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-2 {
+  position: absolute;
+  width: 384px;
+  top: 78px;
+  left: 83px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .pcs {
+  position: absolute;
+  width: 705px;
+  height: 330px;
+  top: 0;
+  left: 537px;
+  object-fit: cover;
+}
+
+.DEALS .navbar {
+  position: absolute;
+  width: 1441px;
+  height: 92px;
+  top: 63px;
+  left: 0;
+}
+
+.DEALS .img {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 7px;
+  left: 0;
+  object-fit: cover;
+}
+
+.DEALS .image {
+  width: 92px;
+  height: 82px;
+  top: 10px;
+  left: 1348px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-2 {
+  width: 63px;
+  height: 67px;
+  top: 10px;
+  left: 1288px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-3 {
+  width: 70px;
+  height: 88px;
+  top: 0;
+  left: 1215px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 13px;
+  left: 1px;
+  object-fit: cover;
+}
+
+.DEALS .text-wrapper-3 {
+  position: absolute;
+  top: 12px;
+  left: 939px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-4 {
+  left: 852px;
+  position: absolute;
+  top: 12px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-5 {
+  left: 743px;
+  position: absolute;
+  top: 12px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-6 {
+  position: absolute;
+  top: 12px;
+  left: 501px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-7 {
+  left: 407px;
+  position: absolute;
+  top: 12px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-8 {
+  left: 295px;
+  position: absolute;
+  top: 12px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .image-4 {
+  width: 251px;
+  height: 85px;
+  top: 2px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-5 {
+  width: 361px;
+  height: 463px;
+  top: 518px;
+  left: 74px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-6 {
+  width: 354px;
+  height: 443px;
+  top: 515px;
+  left: 552px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-7 {
+  width: 330px;
+  height: 467px;
+  top: 513px;
+  left: 1044px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .overlap-group {
+  position: absolute;
+  width: 360px;
+  height: 514px;
+  top: 1000px;
+  left: 74px;
+  background-image: url(./img/image-22.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.DEALS .image-8 {
+  width: 46px;
+  height: 14px;
+  top: 12px;
+  left: 7px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-9 {
+  width: 372px;
+  height: 514px;
+  top: 1000px;
+  left: 1002px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .image-10 {
+  width: 364px;
+  height: 511px;
+  top: 998px;
+  left: 558px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.DEALS .overlap-group-2 {
+  position: absolute;
+  width: 1440px;
+  height: 788px;
+  top: 1686px;
+  left: 0;
+  background-image: url(./img/rectangle-15.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.DEALS .text-wrapper-9 {
+  position: absolute;
+  top: 539px;
+  left: 1093px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-10 {
+  position: absolute;
+  top: 451px;
+  left: 1051px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-11 {
+  position: absolute;
+  top: 495px;
+  left: 1107px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-12 {
+  position: absolute;
+  top: 410px;
+  left: 1107px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-13 {
+  position: absolute;
+  top: 401px;
+  left: 641px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-14 {
+  position: absolute;
+  top: 501px;
+  left: 90px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-15 {
+  position: absolute;
+  top: 451px;
+  left: 95px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-16 {
+  position: absolute;
+  top: 401px;
+  left: 90px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-17 {
+  position: absolute;
+  top: 338px;
+  left: 1080px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-18 {
+  position: absolute;
+  top: 338px;
+  left: 564px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-19 {
+  position: absolute;
+  top: 338px;
+  left: 152px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .vector {
+  position: absolute;
+  width: 1437px;
+  height: 3px;
+  top: 300px;
+  left: 3px;
+}
+
+.DEALS .overlap-2 {
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  top: 149px;
+  left: 470px;
+}
+
+.DEALS .rectangle-3 {
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  top: 0;
+  left: 0;
+}
+
+.DEALS .text-wrapper-20 {
+  position: absolute;
+  top: 19px;
+  left: 133px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEALS .text-wrapper-21 {
+  position: absolute;
+  top: 64px;
+  left: 552px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
