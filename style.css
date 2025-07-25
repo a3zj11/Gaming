@@ -1,4 +1,4 @@
-.DEALS {
+.home {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,35 +6,35 @@
   width: 100%;
 }
 
-.DEALS .div {
+.home .div {
   background-color: #ffffff;
-  overflow: hidden;
   width: 1440px;
-  height: 2474px;
+  height: 3804px;
   position: relative;
 }
 
-.DEALS .overlap {
+.home .overlap-group {
   position: absolute;
-  width: 1355px;
-  height: 330px;
-  top: 158px;
-  left: 42px;
+  width: 1440px;
+  height: 424px;
+  top: 63px;
+  left: 0;
 }
 
-.DEALS .rectangle {
+.home .rectangle {
   position: absolute;
   width: 1355px;
-  height: 301px;
-  top: 14px;
-  left: 0;
+  height: 306px;
+  top: 105px;
+  left: 42px;
   object-fit: cover;
 }
 
-.DEALS .text-wrapper {
+.home .text-wrapper {
   position: absolute;
-  top: 164px;
-  left: 32px;
+  width: 323px;
+  top: 141px;
+  left: 203px;
   font-family: "Koulen-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -43,37 +43,31 @@
   line-height: normal;
 }
 
-.DEALS .text-wrapper-2 {
+.home .text-wrapper-2 {
   position: absolute;
-  width: 384px;
-  top: 78px;
-  left: 83px;
+  top: 313px;
+  left: 169px;
   font-family: "Koulen-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 50px;
+  font-size: 35px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.DEALS .pcs {
+.home .p {
   position: absolute;
-  width: 705px;
-  height: 330px;
-  top: 0;
-  left: 537px;
-  object-fit: cover;
+  top: 225px;
+  left: 102px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #0d0d0d;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.DEALS .navbar {
-  position: absolute;
-  width: 1441px;
-  height: 92px;
-  top: 63px;
-  left: 0;
-}
-
-.DEALS .img {
+.home .img {
   position: absolute;
   width: 1440px;
   height: 75px;
@@ -82,58 +76,10 @@
   object-fit: cover;
 }
 
-.DEALS .image {
-  width: 92px;
-  height: 82px;
-  top: 10px;
-  left: 1348px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.DEALS .image-2 {
-  width: 63px;
-  height: 67px;
-  top: 10px;
-  left: 1288px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.DEALS .image-3 {
-  width: 70px;
-  height: 88px;
-  top: 0;
-  left: 1215px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.DEALS .rectangle-2 {
-  position: absolute;
-  width: 1440px;
-  height: 75px;
-  top: 13px;
-  left: 1px;
-  object-fit: cover;
-}
-
-.DEALS .text-wrapper-3 {
+.home .text-wrapper-3 {
   position: absolute;
   top: 12px;
-  left: 939px;
-  font-family: "Koulen-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-4 {
   left: 852px;
-  position: absolute;
-  top: 12px;
   font-family: "Koulen-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -142,55 +88,31 @@
   line-height: normal;
 }
 
-.DEALS .text-wrapper-5 {
+.home .text-wrapper-4 {
+  top: 12px;
+  left: 949px;
+  font-family: "Koulen-Regular", Helvetica;
+  position: absolute;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-5 {
+  top: 12px;
   left: 743px;
-  position: absolute;
-  top: 12px;
   font-family: "Koulen-Regular", Helvetica;
-  font-weight: 400;
   color: #ffffff;
   font-size: 35px;
+  position: absolute;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.DEALS .text-wrapper-6 {
-  position: absolute;
-  top: 12px;
-  left: 501px;
-  font-family: "Koulen-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-7 {
-  left: 407px;
-  position: absolute;
-  top: 12px;
-  font-family: "Koulen-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-8 {
-  left: 295px;
-  position: absolute;
-  top: 12px;
-  font-family: "Koulen-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .image-4 {
+.home .image {
   width: 251px;
   height: 85px;
   top: 2px;
@@ -199,99 +121,441 @@
   object-fit: cover;
 }
 
-.DEALS .image-5 {
-  width: 361px;
-  height: 463px;
-  top: 518px;
-  left: 74px;
+.home .text-wrapper-6 {
   position: absolute;
-  object-fit: cover;
-}
-
-.DEALS .image-6 {
-  width: 354px;
-  height: 443px;
-  top: 515px;
-  left: 552px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.DEALS .image-7 {
-  width: 330px;
-  height: 467px;
-  top: 513px;
-  left: 1044px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.DEALS .overlap-group {
-  position: absolute;
-  width: 360px;
-  height: 514px;
-  top: 1000px;
-  left: 74px;
-  background-image: url(./img/image-22.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.DEALS .image-8 {
-  width: 46px;
-  height: 14px;
   top: 12px;
-  left: 7px;
+  left: 295px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-7 {
+  top: 12px;
+  left: 407px;
+  font-family: "Koulen-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 35px;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-8 {
+  top: 12px;
+  left: 501px;
+  font-family: "Koulen-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 35px;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .ice-keyboard {
+  position: absolute;
+  width: 397px;
+  height: 224px;
+  top: 155px;
+  left: 511px;
+  object-fit: cover;
+}
+
+.home .pc-homepage {
+  position: absolute;
+  width: 582px;
+  height: 356px;
+  top: 68px;
+  left: 818px;
+  object-fit: cover;
+}
+
+.home .cart {
+  position: absolute;
+  width: 105px;
+  height: 82px;
+  top: 10px;
+  left: 1335px;
+  object-fit: cover;
+}
+
+.home .search {
+  position: absolute;
+  width: 64px;
+  height: 67px;
+  top: 10px;
+  left: 1283px;
+  object-fit: cover;
+}
+
+.home .sign-in {
+  position: absolute;
+  width: 70px;
+  height: 88px;
+  top: 0;
+  left: 1213px;
+  object-fit: cover;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1397px;
+  height: 506px;
+  top: 1579px;
+  left: 1px;
+}
+
+.home .rectangle-2 {
+  position: absolute;
+  width: 1355px;
+  height: 506px;
+  top: 0;
+  left: 42px;
+  object-fit: cover;
+}
+
+.home .text-wrapper-9 {
+  position: absolute;
+  top: 319px;
+  left: 1057px;
+  font-family: "Kumar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-10 {
+  position: absolute;
+  width: 298px;
+  top: 191px;
+  left: 736px;
+  font-family: "Kumar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-11 {
+  position: absolute;
+  top: 33px;
+  left: 386px;
+  font-family: "Kumar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .image-2 {
+  width: 121px;
+  height: 66px;
+  top: 126px;
+  left: 219px;
   position: absolute;
   object-fit: cover;
 }
 
-.DEALS .image-9 {
-  width: 372px;
-  height: 514px;
-  top: 1000px;
-  left: 1002px;
+.home .text-wrapper-12 {
+  position: absolute;
+  top: 184px;
+  left: 140px;
+  font-family: "Kumar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .image-3 {
+  width: 99px;
+  height: 71px;
+  top: 249px;
+  left: 540px;
   position: absolute;
   object-fit: cover;
 }
 
-.DEALS .image-10 {
-  width: 364px;
-  height: 511px;
-  top: 998px;
-  left: 558px;
+.home .text-wrapper-13 {
+  position: absolute;
+  top: 315px;
+  left: 485px;
+  font-family: "Kumar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .image-4 {
+  width: 175px;
+  height: 69px;
+  top: 127px;
+  left: 798px;
   position: absolute;
   object-fit: cover;
 }
 
-.DEALS .overlap-group-2 {
+.home .image-5 {
+  width: 168px;
+  height: 106px;
+  top: 253px;
+  left: 1104px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .our-experts-test-and {
+  position: absolute;
+  width: 513px;
+  top: 233px;
+  left: 0;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .we-add-all-the {
+  position: absolute;
+  top: 376px;
+  left: 427px;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .our-pcs-are-built-by {
+  position: absolute;
+  top: 244px;
+  left: 683px;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .right-after-you {
+  position: absolute;
+  top: 376px;
+  left: 995px;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-14 {
+  position: absolute;
+  top: 511px;
+  left: 603px;
+  font-family: "Luckiest Guy-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .image-6 {
+  width: 315px;
+  height: 417px;
+  top: 607px;
+  left: 26px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-7 {
+  width: 317px;
+  height: 415px;
+  top: 609px;
+  left: 779px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-8 {
+  width: 314px;
+  height: 415px;
+  top: 610px;
+  left: 1109px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-9 {
+  width: 307px;
+  height: 406px;
+  top: 619px;
+  left: 365px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-10 {
+  width: 316px;
+  height: 433px;
+  top: 1086px;
+  left: 25px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-11 {
+  width: 319px;
+  height: 431px;
+  top: 1088px;
+  left: 353px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-12 {
+  width: 317px;
+  height: 427px;
+  top: 1086px;
+  left: 773px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-13 {
+  width: 321px;
+  height: 433px;
+  top: 1080px;
+  left: 1105px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .reviews {
+  position: absolute;
+  top: 2088px;
+  left: 611px;
+  font-family: "Texturina-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .span {
+  font-family: "Texturina-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+}
+
+.home .text-wrapper-15 {
+  font-family: "Tienne-Regular", Helvetica;
+}
+
+.home .image-14 {
+  width: 192px;
+  height: 81px;
+  top: 2159px;
+  left: 599px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-15 {
+  width: 326px;
+  height: 567px;
+  top: 2277px;
+  left: 102px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-16 {
+  width: 349px;
+  height: 617px;
+  top: 2277px;
+  left: 969px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .image-17 {
+  width: 348px;
+  height: 618px;
+  top: 2277px;
+  left: 532px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .overlap-2 {
   position: absolute;
   width: 1440px;
-  height: 788px;
-  top: 1686px;
+  height: 772px;
+  top: 3032px;
   left: 0;
-  background-image: url(./img/rectangle-15.png);
+  background-image: url(./img/rectangle-6.png);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.DEALS .text-wrapper-9 {
-  position: absolute;
-  top: 539px;
-  left: 1093px;
+.home .text-wrapper-16 {
+  top: 494px;
+  left: 1088px;
   font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
   color: #7f7777;
   font-size: 25px;
   text-align: center;
+  position: absolute;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.DEALS .text-wrapper-10 {
+.home .text-wrapper-17 {
+  top: 408px;
+  left: 1056px;
+  font-family: "Krona One-Regular", Helvetica;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-18 {
   position: absolute;
   top: 451px;
-  left: 1051px;
+  left: 1112px;
   font-family: "Krona One-Regular", Helvetica;
   font-weight: 400;
   color: #7f7777;
@@ -301,87 +565,22 @@
   line-height: normal;
 }
 
-.DEALS .text-wrapper-11 {
-  position: absolute;
-  top: 495px;
+.home .text-wrapper-19 {
+  top: 371px;
   left: 1107px;
   font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
   color: #7f7777;
   font-size: 25px;
   text-align: center;
+  position: absolute;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.DEALS .text-wrapper-12 {
+.home .text-wrapper-20 {
   position: absolute;
-  top: 410px;
-  left: 1107px;
-  font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
-  color: #7f7777;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-13 {
-  position: absolute;
-  top: 401px;
-  left: 641px;
-  font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
-  color: #7f7777;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-14 {
-  position: absolute;
-  top: 501px;
-  left: 90px;
-  font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
-  color: #7f7777;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-15 {
-  position: absolute;
-  top: 451px;
-  left: 95px;
-  font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
-  color: #7f7777;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-16 {
-  position: absolute;
-  top: 401px;
-  left: 90px;
-  font-family: "Krona One-Regular", Helvetica;
-  font-weight: 400;
-  color: #7f7777;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.DEALS .text-wrapper-17 {
-  position: absolute;
-  top: 338px;
+  top: 315px;
   left: 1080px;
   font-family: "Krona One-Regular", Helvetica;
   font-weight: 400;
@@ -392,23 +591,62 @@
   line-height: normal;
 }
 
-.DEALS .text-wrapper-18 {
+.home .text-wrapper-21 {
   position: absolute;
-  top: 338px;
+  top: 377px;
+  left: 630px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-22 {
+  top: 315px;
   left: 564px;
   font-family: "Krona One-Regular", Helvetica;
+  text-align: center;
+  position: absolute;
   font-weight: 400;
   color: #ffffff;
   font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-23 {
+  position: absolute;
+  top: 475px;
+  left: 95px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.DEALS .text-wrapper-19 {
+.home .text-wrapper-24 {
   position: absolute;
-  top: 338px;
-  left: 152px;
+  top: 426px;
+  left: 95px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-25 {
+  position: absolute;
+  top: 46px;
+  left: 563px;
   font-family: "Krona One-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -418,23 +656,15 @@
   line-height: normal;
 }
 
-.DEALS .vector {
-  position: absolute;
-  width: 1437px;
-  height: 3px;
-  top: 300px;
-  left: 3px;
-}
-
-.DEALS .overlap-2 {
+.home .overlap-3 {
   position: absolute;
   width: 500px;
   height: 84px;
-  top: 149px;
+  top: 127px;
   left: 470px;
 }
 
-.DEALS .rectangle-3 {
+.home .rectangle-3 {
   position: absolute;
   width: 500px;
   height: 84px;
@@ -442,7 +672,7 @@
   left: 0;
 }
 
-.DEALS .text-wrapper-20 {
+.home .text-wrapper-26 {
   position: absolute;
   top: 19px;
   left: 133px;
@@ -455,14 +685,35 @@
   line-height: normal;
 }
 
-.DEALS .text-wrapper-21 {
+.home .text-wrapper-27 {
   position: absolute;
-  top: 64px;
-  left: 552px;
+  top: 315px;
+  left: 152px;
   font-family: "Krona One-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .vector {
+  position: absolute;
+  width: 1437px;
+  height: 3px;
+  top: 272px;
+  left: 3px;
+}
+
+.home .text-wrapper-28 {
+  position: absolute;
+  top: 377px;
+  left: 95px;
+  font-family: "Krona One-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7777;
+  font-size: 25px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
